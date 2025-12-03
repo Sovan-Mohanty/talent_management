@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "50972853_2",
+    "title": "Security Analyst L2 - SOC",
+    "location": "Trivandrum, Kerala, India",
+    "required_skills": ["SIEM", "Splunk", "Python", "Incident Response", "Mitre ATT&CK"],
+    "description": "24x7 SOC operations for global client",
+    "start_date": { "$date": "2025-03-01T00:00:00Z" },
+    "end_date": { "$date": "2025-12-31T00:00:00Z" },
+    "wfm_id": "300001",
+    "hm_id": "400001",
+    "status": "Open",
+    "job_grade": "B2",
+    "created_at": { "$date": "2025-03-15T00:00:00Z" }
+  },
+  {
+    "_id": "33285746_6",
+    "title": "Java Full Stack Developer",
+    "location": "Bangalore, Karnataka, India",
+    "required_skills": ["Java", "Spring Boot", "React", "Microservices", "AWS"],
+    "description": "Digital transformation project for banking client",
+    "start_date": { "$date": "2025-04-01T00:00:00Z" },
+    "end_date": { "$date": "2025-11-30T00:00:00Z" },
+    "wfm_id": "300001",
+    "hm_id": "400001",
+    "status": "Open",
+    "job_grade": "A2",
+    "created_at": { "$date": "2025-04-01T00:00:00Z" }
+  }
+]
