@@ -1,0 +1,110 @@
+[
+  {
+    "_id": { "$oid": "67a1f3c9e4b0a12345678901" },
+    "employee_id": "100001",
+    "name": "Admin User",
+    "email": "admin@company.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$otQ6h9CaM4ZwzlnL2TtnTA$gbLxVjVlKj/NYp7KF7B287JDOVMMHO3oDGUbjszW32U",
+    "role": "Admin",
+    "created_at": { "$date": "2025-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "67a1f3c9e4b0a12345678902" },
+    "employee_id": "200001",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@company.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$otQ6h9CaM4ZwzlnL2TtnTA$gbLxVjVlKj/NYp7KF7B287JDOVMMHO3oDGUbjszW32U",
+    "role": "TP Manager",
+    "managed_type": "TP",
+    "created_at": { "$date": "2025-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "67a1f3c9e4b0a12345678903" },
+    "employee_id": "300001",
+    "name": "Rahul Mehta",
+    "email": "rahul.mehta@company.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$otQ6h9CaM4ZwzlnL2TtnTA$gbLxVjVlKj/NYp7KF7B287JDOVMMHO3oDGUbjszW32U",
+    "role": "WFM",
+    "wfm_id": "WFM300001",
+    "managed_jobs": ["50972853_2", "33285746_6"],
+    "created_at": { "$date": "2025-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "67a1f3c9e4b0a12345678904" },
+    "employee_id": "400001",
+    "name": "Anita Desai",
+    "email": "anita.desai@company.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$otQ6h9CaM4ZwzlnL2TtnTA$gbLxVjVlKj/NYp7KF7B287JDOVMMHO3oDGUbjszW32U",
+    "role": "HM",
+    "hm_id": "HM400001",
+    "can_create_jobs": true,
+    "created_at": { "$date": "2025-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "67a1f3c9e4b0a12345678905" },
+    "employee_id": "2001",
+    "name": "Employee101",
+    "email": "e101@company.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$otQ6h9CaM4ZwzlnL2TtnTA$gbLxVjVlKj/NYp7KF7B287JDOVMMHO3oDGUbjszW32U",
+    "role": "TP",
+    "type": "TP",
+    "band": "B3",
+    "created_at": { "$date": "2025-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "67a1f3c9e4b0a12345678906" },
+    "employee_id": "2003",
+    "name": "Employee103",
+    "email": "e103@company.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$otQ6h9CaM4ZwzlnL2TtnTA$gbLxVjVlKj/NYp7KF7B287JDOVMMHO3oDGUbjszW32U",
+    "role": "Non TP",
+    "type": "Non TP",
+    "band": "A3",
+    "created_at": { "$date": "2025-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "67a1f3c9e4b0a12345678907" },
+    "employee_id": "2010",
+    "name": "Employee110",
+    "email": "e110@company.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$otQ6h9CaM4ZwzlnL2TtnTA$gbLxVjVlKj/NYp7KF7B287JDOVMMHO3oDGUbjszW32U",
+    "role": "TP",
+    "type": "TP",
+    "band": "A2",
+    "skills": ["Mainframe", "COBOL", "JCL", "DB2"],
+    "created_at": { "$date": "2025-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "67a1f3c9e4b0a12345678908" },
+    "employee_id": "2050",
+    "name": "Employee150",
+    "email": "e150@company.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$otQ6h9CaM4ZwzlnL2TtnTA$gbLxVjVlKj/NYp7KF7B287JDOVMMHO3oDGUbjszW32U",
+    "role": "TP",
+    "type": "TP",
+    "band": "A2",
+    "primary_technology": "Java",
+    "created_at": { "$date": "2025-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "67a1f3c9e4b0a12345678909" },
+    "employee_id": "2100",
+    "name": "Vikram Singh",
+    "email": "vikram.singh@company.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$otQ6h9CaM4ZwzlnL2TtnTA$gbLxVjVlKj/NYp7KF7B287JDOVMMHO3oDGUbjszW32U",
+    "role": "WFM",
+    "wfm_id": "WFM2100",
+    "created_at": { "$date": "2025-01-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "67a1f3c9e4b0a12345678910" },
+    "employee_id": "4100",
+    "name": "Neha Kapoor",
+    "email": "neha.kapoor@company.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$otQ6h9CaM4ZwzlnL2TtnTA$gbLxVjVlKj/NYp7KF7B287JDOVMMHO3oDGUbjszW32U",
+    "role": "HM",
+    "hm_id": "HM4100",
+    "can_create_jobs": true,
+    "created_at": { "$date": "2025-01-01T00:00:00Z" }
+  }
+]
